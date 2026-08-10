@@ -1,0 +1,45 @@
+{
+  "name": "Roads at Risk - Beach Haven DEM",
+  "source": "USGS 3DEP Bare Earth DEM Dynamic ImageServer",
+  "sourceUrl": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "sourceDescription": "USGS 3D Elevation Program (3DEP) Bare Earth DEM Dynamic service, retrieved for the Roads at Risk municipal rollout.",
+  "downloadedAt": "2026-08-10",
+  "processing": "Exported from USGS 3DEP at municipal extent, masked to the Beach Haven Borough boundary, resampled to 1.524 m / 5 ft pixels, and compressed as a Cloud Optimized GeoTIFF.",
+  "horizontalCrs": "EPSG:3857",
+  "verticalUnits": "meters",
+  "displayElevationUnits": "feet",
+  "pixelSizeMeters": 1.524,
+  "pixelSizeFeet": 4.99999999998,
+  "adaptiveResolution": false,
+  "width": 2736,
+  "height": 3622,
+  "nodata": -999999,
+  "minMeters": -0.78,
+  "maxMeters": 7.091,
+  "meanMeters": 0.32,
+  "stdDevMeters": 1.422,
+  "minFeet": -2.5590551181000003,
+  "maxFeet": 23.264435695445002,
+  "webMercatorBounds": [
+    -8267376.47827,
+    4800341.391394,
+    -8263206.81427,
+    4805861.319394
+  ],
+  "leafletBounds": [
+    [
+      39.5470836,
+      -74.2671065
+    ],
+    [
+      39.5853026,
+      -74.2296533
+    ]
+  ],
+  "files": {
+    "demCog": "beach_haven_dem_5ft_cog.tif",
+    "hillshadeCog": "beach_haven_hillshade_cog.tif",
+    "hillshadePng": "beach_haven_hillshade.png",
+    "boundaryGeojson": "beach_haven_boundary.geojson"
+  }
+}
